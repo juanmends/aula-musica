@@ -49,57 +49,57 @@ function App() {
       id: 1, 
       title: 'Ando meio desligado', 
       genre: 'eletronica',
-      audioFile: '/audio/Ando meio desligado - Eletronica.mp3',
-      thumbnail: '/thumbnails/desligado.png'
+      audioFile: './audio/Ando meio desligado - Eletronica.mp3',
+      thumbnail: './thumbnails/desligado.png'
     },
     { 
       id: 2, 
       title: 'Aurora', 
       genre: 'hiphop',
-      audioFile: '/audio/Aurora - HipHop.wav',
-      thumbnail: '/thumbnails/aurora.png'
+      audioFile: './audio/Aurora - HipHop.wav',
+      thumbnail: './thumbnails/aurora.png'
     },
     { 
       id: 3, 
       title: 'Dancing on my problems', 
       genre: 'eletronica',
-      audioFile: '/audio/Dancing on my problems - Eletronica.mp3',
-      thumbnail: '/thumbnails/dancing.png'
+      audioFile: './audio/Dancing on my problems - Eletronica.mp3',
+      thumbnail: './thumbnails/dancing.png'
     },
     { 
       id: 4, 
       title: 'Espacial', 
       genre: 'trilha',
-      audioFile: '/audio/Espacial - Trilha Sonora.mp3',
-      thumbnail: '/thumbnails/espacial.png'
+      audioFile: './audio/Espacial - Trilha Sonora.mp3',
+      thumbnail: './thumbnails/espacial.png'
     },
     { 
       id: 5, 
       title: 'Fear', 
       genre: 'hiphop',
-      audioFile: '/audio/Fear - HipHop.mp3',
-      thumbnail: '/thumbnails/fear.png'
+      audioFile: './audio/Fear - HipHop.mp3',
+      thumbnail: './thumbnails/fear.png'
     },
     { 
       id: 6, 
       title: 'Natal', 
       genre: 'rock',
-      audioFile: '/audio/Natal - Rock.wav',
-      thumbnail: '/thumbnails/natal.png'
+      audioFile: './audio/Natal - Rock.wav',
+      thumbnail: './thumbnails/natal.png'
     },
     { 
       id: 7, 
       title: 'Última vez', 
       genre: 'trilha',
-      audioFile: '/audio/Ultima vez - Trilha Sonora.mp3',
-      thumbnail: '/thumbnails/ultima.png'
+      audioFile: './audio/Ultima vez - Trilha Sonora.mp3',
+      thumbnail: './thumbnails/ultima.png'
     },
     { 
       id: 8, 
       title: 'Vento', 
       genre: 'trilha',
-      audioFile: '/audio/Vento - Trilha Sonora.mp3',
-      thumbnail: '/thumbnails/vento.png'
+      audioFile: './audio/Vento - Trilha Sonora.mp3',
+      thumbnail: './thumbnails/vento.png'
     }
   ];
 
@@ -162,7 +162,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
-            <img src="/logo.png" alt="Logo" className="logo-icon" />
+            <img src="./logo.png" alt="Logo" className="logo-icon" />
           </div>
           <ul className="nav-menu">
             {['home', 'about', 'classes', 'portfolio', 'contact'].map(section => (
@@ -216,7 +216,7 @@ function App() {
           <div className="about-content">
             <div className="about-image">
               <div className="about-image-placeholder">
-                <img src="/foto.gif" alt="Foto" />
+                <img src="./foto.gif" alt="Foto" />
               </div>
             </div>
             <div className="about-text">
